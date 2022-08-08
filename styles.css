@@ -1,0 +1,99 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: goldenrod;
+}
+
+img {
+    width: 250px;
+    justify-content: start;
+}
+
+.menu{
+    padding: 0;
+    background-color: darkblue;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu li a{
+    color: goldenrod;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    height: 100%;
+    
+}
+
+.menu li a:hover{
+    background-color: chocolate;
+}
+
+
+.menu li{
+    display: inline-block;
+    align-content: space-between;
+    
+}
+
+.boton_1{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: darkblue;
+    font-size: 19px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.boton_1:active{
+    background-color: chocolate;
+}
+
+.boton_2{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+    font-size: 19px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.boton_2:active{
+    background-color: darkblue;
+}
+
+.main{
+    display: flex;
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.parrafo_main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.div_p_scroll{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: dotted;
+}
+
+.imagen_main{
+    border-radius: 5px;
+}
